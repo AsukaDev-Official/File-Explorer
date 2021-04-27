@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+        
+    
+     <item
+        android:id="@+id/menu_share"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:icon="?action_icon_share"
+        android:showAsAction="always"
+        android:title="@string/action_share"/>
+     
+        <item
+        android:id="@+id/menu_copy"
+        android:icon="?action_icon_copy"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_copy"/>
+        
+            <item
+        android:id="@+id/menu_cut"
+        android:icon="?action_icon_cut"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_cut"/>
+            
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="?action_icon_delete"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_delete"/>
+    
+    
+    <item
+        android:id="@+id/menu_rename"
+        android:icon="?action_icon_rename"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_rename"/>
+    <item
+        android:id="@+id/menu_zip"
+        android:title="@string/action_zip"/>
+    
+        <item
+        android:id="@+id/menu_unzip"
+        android:title="@string/action_unzip"/>
+        
+    <item
+        android:id="@+id/menu_props"
+        android:title="@string/action_prop"/>
+
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.appositedesigns.fileexplorer"
+    android:versionCode="17"
+    android:versionName="@string/app_version" 
+    android:installLocation="auto">
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <permission-group android:name="android.permission-group.STORAGE" >
+    </permission-group>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".FileExplorerApp"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".activity.FileListActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+            <intent-filter>
+                <action android:name="net.appositedesigns.fileexplorer.action.OPEN_FOLDER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            <intent-filter android:label="@string/pick_file">
+                <action android:name="android.intent.action.GET_CONTENT" />
+                <data android:mimeType="*/*"/>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.OPENABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:icon="@drawable/bookmark_icon"
+            android:name=".activity.BookmarkListActivity"
+            android:label="@string/bookmarks" >
+             <intent-filter>
+                <action android:name="net.appositedesigns.fileexplorer.action.OPEN_BOOKMARKS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/settings" >
+        </activity>
+    </application>
+
+</manifest>

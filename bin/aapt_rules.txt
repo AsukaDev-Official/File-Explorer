@@ -1,0 +1,24 @@
+# view AndroidManifest.xml #generated:15
+-keep class net.appositedesigns.fileexplorer.FileExplorerApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class net.appositedesigns.fileexplorer.activity.BookmarkListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class net.appositedesigns.fileexplorer.activity.FileListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class net.appositedesigns.fileexplorer.activity.SettingsActivity { <init>(...); }
+
+# view res/xml/prefs.xml #generated:18
+-keep class net.appositedesigns.fileexplorer.activity.SettingsActivity$AboutPreferences { <init>(...); }
+
+# view res/xml/prefs.xml #generated:13
+-keep class net.appositedesigns.fileexplorer.activity.SettingsActivity$GeekyPreferences { <init>(...); }
+
+# view res/xml/prefs.xml #generated:8
+-keep class net.appositedesigns.fileexplorer.activity.SettingsActivity$NavigationPreferences { <init>(...); }
+
+# view res/xml/prefs.xml #generated:4
+-keep class net.appositedesigns.fileexplorer.activity.SettingsActivity$ViewPreferences { <init>(...); }
+
