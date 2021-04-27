@@ -1,17 +1,37 @@
-![Logo](res/drawable-hdpi/icon.png) Android File Explorer
-=====================
 
-I started writing Android File Explorer back in October 2011.
-The designs goals behind this app were (and are)
-- Usability
-- Close adherence with Android UI Design guidelines
-- Speed 
+<p align="center">
+  <a name="top" href="#octocat-hi-there-thanks-for-visiting-">
+     <img alt="AsukaDev-Official/Crawler" height="100%" width="100%" src="20210427_211155.png"/>
+  </a>
+</p>
 
+# Info
 
-However, admittedly, I haven't pushed any update since April 2012. The project has been dormant all this while but its far from dead.
+<p align="center">
 
-In the past one year, a lot of awesome frameworks and design patterns have emerged.
-I will be making use of many of these frameworks, tools and design patterns with a complete rewrite of the app.   
-Plan is to also start a donate version.
+ <a href="https://github.com/AsukaDev-Official">
+    <img alt="Top Language" src="https://img.shields.io/github/languages/top/AsukaDev-Official/File-Explorer.svg"/>
+  </a>
+<a href="https://github.com/AsukaDev-Official/followers">
+  <img title="Followers" src="https://img.shields.io/github/followers/AsukaDev-Official?label=Followers&color=blue&style=flat-square"></a>
+<a href="https://github.com/AsukaDev-Official/Anime-Tracker/stargazers/">
+<a href="https://github.com/AsukaDev-Official">
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/AsukaDev-Official/File-Explorer.svg"/>
+</a>
+<a href="https://github.com/AsukaDev-Official">
+  <img alt="Language" src="https://img.shields.io/github/languages/count/AsukaDev-Official/File-Explorer.svg"/>
+</a>
+<a href="https://github.com/AsukaDev-Official">
+  <img alt="Starts" src="https://img.shields.io/github/stars/AsukaDev-Official/File-Explorer.svg"/>
+</a>
+<a href="https://github.com/AsukaDev-Official">
+  <img alt="Forks" src="https://img.shields.io/github/forks/AsukaDev-Official/File-Explorer.svg"/>
+</a>
+</div>
+</p>
 
-PS: You can download this app from [Google Play](https://play.google.com/store/apps/details?id=net.appositedesigns.fileexplorer "Android File Explorer on Google Play") 
+##
+### :octocat: Hi, thanks for spending your time visiting this repository !
+<p>
+This is Source Code Android App File Explorer
+</p>
